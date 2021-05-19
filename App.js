@@ -77,7 +77,7 @@ const App = () => {
             <Text>Description:{movie.clicked.Plot}</Text>
             <Button onPress={() => setMovie(prevState => {
                 return{...prevState, clicked:{}}
-    })}>
+            })}>
             Close
             </Button>
       </Modal>
